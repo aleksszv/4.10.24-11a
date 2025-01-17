@@ -1,0 +1,40 @@
+filma ={
+   
+"Nosaukums":"Coach Carter",
+"Žanrs": "Sports",
+"Aktieri": ["Samuel L. Jackson","Rick Gonzalez"],
+'Rezisors': 'David Gale'
+}
+ #Pievieno IMDB reitingu
+ filma["IMDB_reitings"]= 7.3
+ 
+ #Maina zanru
+ filma["žanrs"] = "Sports"
+ 
+ #Izdzēš režisoru
+ del filma["režisors"]
+
+
+filma2 ={
+    
+"Nosaukums":"Squid Game",
+"Žanrs": "Trilleris",
+"Aktieri": ["Lee Jung-jae","Gong Yoo"],
+'Rezisors': " Hwang Dong-hyuk"
+
+ #Pievieno IMDB reitingu
+ filma["IMDB_reitings"]= 8
+ 
+ #Maina zanru
+ filma["žanrs"] = "Trilleris"
+ 
+ #Izdzēš režisoru
+ del filma["režisors"]    
+}
+
+# Pievieno otro filmu
+filmas ={"filma 1": filma, "filma 2": filma}
+#Izdrukā vārdnicu
+ print(filma)
+ print(filma2) 
+ 
