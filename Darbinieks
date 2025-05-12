@@ -29,8 +29,8 @@ if __name__ == "__main__":
     darbinieks1.increase_salary(10)
     darbinieks2.decrease_salary(5)
 
-    print(f"Jaunā alga Dorians: {darbinieks1.alga}")
-    print(f"Jaunā alga Senja: {darbinieks2.alga}")
+    print(f"Jaunā alga Alekss: {darbinieks1.alga}")
+    print(f"Jaunā alga Martins: {darbinieks2.alga}")
     
 #2.uzd.
 
